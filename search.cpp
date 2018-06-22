@@ -74,7 +74,8 @@ int main() {
   //   cout<<a[i]<<" ";
   // }
   // lsearch(a,12);
-  sort(a,a+max);                    //data must be sorted for binary and interpolation serach
+  sort(a,a+max);       //data must be sorted for binary and interpolation serach
+  // iserach(a,5,max);
   iserach(a,5,max);
 
   return 0;
